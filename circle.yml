@@ -20,7 +20,7 @@ dependencies:
   cache_directories:
     - Carthage/Build
     - ~/.gem
-
+  
 test:
   override:
     - bash build.sh
