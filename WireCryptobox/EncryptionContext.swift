@@ -106,7 +106,7 @@ public final class EncryptionContext : NSObject {
         close(self.fileDescriptor)
         // close cbox
         cbox_close(implementation.ptr)
-        zmLog.debug("Closed cryptobox at path: \(path)")
+//        zmLog.debug("Closed cryptobox at path: \(path)")
 
     }
     
